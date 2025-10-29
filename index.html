@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - [rangga aditia]</title>
+    <meta name="description" content="Portfolio profesional menampilkan karya dan keahlian saya sebagai developer.">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <span>Portfolio</span>
+                </div>
+                <div class="nav-menu">
+                    <a href="#home" class="nav-link">Beranda</a>
+                    <a href="#about" class="nav-link">Tentang</a>
+                    <a href="#skills" class="nav-link">Keahlian</a>
+                    <a href="#projects" class="nav-link">Proyek</a>
+                    <a href="#contact" class="nav-link">Kontak</a>
+                </div>
+                <div class="nav-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Halo, Saya rangga <span class="highlight">[Rangga Aditia]</span></h1>
+            <p class="hero-subtitle">Developer Full-Stack yang passionate dengan fokus pada solusi web modern</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">Lihat Proyek</a>
+                <a href="#contact" class="btn btn-secondary">Hubungi Saya</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="profile-image">
+                <img src="images/profile.jpg" alt="Profile Picture" onerror="this.src='https://via.placeholder.com/300x300/1a1a2e/ffffff?text=Profile'">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>Tentang Saya</h2>
+                <p>Mengenal lebih dekat dengan background dan passion saya</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Saya adalah seorang developer full-stack dengan pengalaman dalam membangun aplikasi web yang scalable dan user-friendly. Saya senang belajar teknologi baru dan mengimplementasikannya dalam proyek-proyek inovatif.</p>
+                    <p>Dengan latar belakang pendidikan di bidang teknologi informasi, saya telah bekerja proyek mulai dari website barbershop dan sistem gudang .</p>
+                    <div class="stats">
+                        <div class="stat">
+                            <h3>2</h3>
+                            <p>Tahun Pengalaman</p>
+                        </div>
+                        <div class="stat">
+                            <h3>2</h3>
+                            <p>Proyek Selesai</p>
+                        </div>
+                        <div class="stat">
+                            <h3>2</h3>
+                            <p>Klien Puas</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2>Keahlian</h2>
+                <p>Teknologi dan tools yang saya kuasai</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Frontend</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-html5"></i>
+                            <span>HTML5</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-css3-alt"></i>
+                            <span>CSS3</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-js-square"></i>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-react"></i>
+                            <span>React</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Backend</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-node-js"></i>
+                            <span>Node.js</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-python"></i>
+                            <span>Python</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools & Others</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-git-alt"></i>
+                            <span>Git</span>
+                        </div>
+                        <div class="fab fa-aws"></i>
+                            <span>AWS</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-code"></i>
+                            <span>VS Code</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2>Proyek Terbaru</h2>
+                <p>Kumpulan proyek yang telah saya kerjakan</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="barbershop.png" alt="Project 1" onerror="this.src='https://ranggaaditia2807.github.io/barbershop-/'">
+                    </div>
+                    <div class="project-content">
+                        <h3>Barbershop</h3>
+                        <p>website barbershop.</p>
+                        <div class="project-tech">
+                            <span>html</span>
+                            <span>Node.js</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/ranggaaditia2807/barbershop-.git" class="btn btn-small btn-outline">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="gudang.png" alt="Project 2" onerror="this.src='https:https://github.com/ranggaaditia2807/gudang-pln-upt-gandul.git'">
+                    </div>
+                    <div class="project-content">
+                        <h3>Sistem Gudang</h3>
+                        <p>Aplikasi sistem dengan fitur kolaborasi tim dan tracking progress real-time.</p>
+                        <div class="project-tech">
+                            <span>html</span>
+                            <span>Firebase</span>
+                            <span>Tailwind CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/ranggaaditia2807/gudang-pln-upt-gandul.git" class="btn btn-small btn-outline">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="toko baju.png" alt="Project 3" onerror="this.src='https://via.placeholder.com/400x250/1a1a2e/ffffff?text=Project+3'">
+                    </div>
+                    <div class="project-content">
+                        <h3>Toko Baju</h3>
+                        <p>membuat Toko Baju yang lengkap dengan home page, order dll membuat transaksi lebih mudah.</p>
+                        <div class="project-tech">
+                            <span>JavaScript</span>
+                            <span>css</span>
+                            <span>node.js</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-small btn-outline">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Hubungi Saya</h2>
+                <p>Mari diskusikan proyek Anda berikutnya</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>ranggaaditiya282007@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Telepon</h4>
+                            <p>+6285771582095</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Lokasi</h4>
+                            <p>Depok, Indonesia</p>
+                        </div>
+                    </div>
+                </div>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Nama Lengkap" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Subjek" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Pesan Anda" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" id="submitBtn">
+                            <span id="btnText">Kirim Pesan</span>
+                            <span id="btnLoading" style="display: none;">Mengirim...</span>
+                        </button>
+                    </form>
+                    <div class="order-buttons">
+                        <a href="https://wa.me/6285771582095?text=Halo%2C%20saya%20ingin%20order%20layanan%20Anda" class="btn btn-primary" target="_blank">
+                            <i class="fab fa-whatsapp"></i> Order via WhatsApp
+                        </a>
+                    </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 [Nama Anda]. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
